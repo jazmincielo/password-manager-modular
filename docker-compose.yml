@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  password-manager:
+    build: .
+    container_name: devops_password_manager_modular
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    restart: unless-stopped

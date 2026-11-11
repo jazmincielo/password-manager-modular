@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "password-manager-modular"
+version = "0.1.0"
+description = "Gestor de Contraseñas Modular con NiceGUI, SQLModel, Cryptography y Supabase en Docker"
+authors = ["Docente de Taller de Programación"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nicegui = "^1.4.0"
+sqlmodel = "^0.0.16"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+cryptography = "^42.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
